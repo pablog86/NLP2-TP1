@@ -104,9 +104,16 @@ print(f"MoE   PPL: {moe_ppl:.2f}")
 
 ## 📖 Referencias
 
+## 📖 Referencias
+
 - **Switch Transformer** (Fedus et al., 2021) — *Efficient Mixture of Experts* ([https://arxiv.org/abs/2201.00084](https://arxiv.org/abs/2201.00084))
 - **ST-MoE** (Zoph et al., 2022) — *Scaling MoE Models* ([https://arxiv.org/abs/2202.08906](https://arxiv.org/abs/2202.08906))
-- **The Curious Case of Neural Text Degeneration** (Holtzman et al., 2019) — *Salidas degenerativas con greedy* ([https://arxiv.org/abs/1904.09751](https://arxiv.org/abs/1904.09751))
+- **A Review of Sparse Expert Models in Deep Learning** (Wright et al., 2022) — *Sparse Expert Models* ([https://arxiv.org/pdf/2209.01667](https://arxiv.org/pdf/2209.01667))
+- **The Curious Case of Neural Text Degeneration** (Holtzman et al., 2019) — *The Curious Case of Neural Text Degeneration* ([https://arxiv.org/abs/1904.09751](https://arxiv.org/abs/1904.09751))
+- **Closing the Curious Case of Neural Text Degeneration** (Finlayson et al., 2023) — *Closing the Curious Case of Neural Text Degeneration* ([https://openreview.net/pdf?id=dONpC9GL1o](https://openreview.net/pdf?id=dONpC9GL1o))
+- **Learning to Break the Loop: Analyzing and Mitigating Repetitions for Neural Text Generation** (Xu et al., 2022) — *Learning to Break the Loop* ([https://arxiv.org/pdf/2206.02369](https://arxiv.org/pdf/2206.02369))
+- **On Decoding Strategies for Neural Text Generators** (Wiher et al., 2022) — *On Decoding Strategies for Neural Text Generators* ([https://arxiv.org/pdf/2203.15721](https://arxiv.org/pdf/2203.15721))
+
 
 ## 📝 Licencia
 
