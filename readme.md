@@ -78,16 +78,19 @@ print(f"Throughput: {throughput:.1f} tokens/s")
 
 ### 3. Evaluación de Perplejidad
 
-```python
-from trainer import compute_perplexity
-import torch.nn as nn
+- Throughput desde la inferencia con generateV2 (GPU y CPU)
+- Cantidad de parámetros
+- Perplejidad
+    ```python
+    from trainer import compute_perplexity
+    import torch.nn as nn
 
-loss_fn = nn.CrossEntropyLoss(reduction='sum')
-dense_ppl = compute_perplexity(dense_model, val_loader, loss_fn, device)
-moe_ppl   = compute_perplexity(moe_model,   val_loader, loss_fn, device)
-print(f"Dense PPL: {dense_ppl:.2f}")
-print(f"MoE   PPL: {moe_ppl:.2f}")
-```
+    loss_fn = nn.CrossEntropyLoss(reduction='sum')
+    dense_ppl = compute_perplexity(dense_model, val_loader, loss_fn, device)
+    moe_ppl   = compute_perplexity(moe_model,   val_loader, loss_fn, device)
+    print(f"Dense PPL: {dense_ppl:.2f}")
+    print(f"MoE   PPL: {moe_ppl:.2f}")
+    ```
 
 ## 📈 Resultados y Benchmark
 
